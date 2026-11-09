@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lentera Baca
 
 Aplikasi web perpustakaan digital untuk taman baca dan sekolah di wilayah 3T (terdepan, terluar, tertinggal).
@@ -84,3 +85,6 @@ resources/views/               auth, pengelola, admin, components
 resources/css/app.css          design token Tailwind 4
 database/seeders/              data demo 3 taman baca, 12 buku, 13 permintaan
 ```
+=======
+# project_akhir
+>>>>>>> origin/main

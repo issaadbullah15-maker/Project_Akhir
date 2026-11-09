@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Design tokens — Lentera Baca (Figma) */
+    --color-brand: #2563eb;
+    --color-brand-soft: #eff6ff;
+    --color-ink: #111827;
+    --color-muted: #6b7280;
+    --color-line: #dde1e6;
+    --color-surface: #f9fafb;
+    --color-soft: #f3f4f6;
+    --color-track: #e5e7eb;
+    --color-thumb: #9ca3af;
+}
+
+@layer base {
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+        @apply bg-surface text-ink font-sans antialiased;
+    }
+}
